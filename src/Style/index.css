@@ -6,10 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face{
+  font-family: mustardo;
+  src: local('mustardo'), url(./mustardo.ttf) format('ttf');
+}
+.custom-font{
+  font-family: mustardo;
 }
 .carousel-container{
 	top: 50px;
@@ -22,14 +28,13 @@ code {
 }
 .card-title{
 	position: absolute;
-  	top: 60%;
-  	left: 5%;
+	top: 60%;
+	left: 5%;
+	color: black;
 }
 .card-label{
 	position: absolute;
-  	top: 70%;
-  	left: 5%;
-}
-canvas{
-	text-align: center;
+	top: 70%;
+	left: 5%;
+	color: black;
 }

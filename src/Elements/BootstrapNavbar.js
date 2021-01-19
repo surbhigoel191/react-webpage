@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router} from "react-router-dom";
 import { Navbar,Nav,Form,FormControl,Button } from 'react-bootstrap'
-import './index.css'
+import '../Style/index.css'
 
 class BootstrapNavbar extends React.Component{
 
@@ -12,7 +12,7 @@ class BootstrapNavbar extends React.Component{
                     <div className="col-md-12">
                         <Router>
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                                <Navbar.Brand href="#">Summer 2021 Frontend Assignment</Navbar.Brand>
+                                <Navbar.Brand href="#" className="custom-font">Summer 2021 Frontend Assignment</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
