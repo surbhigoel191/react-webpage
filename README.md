@@ -2,14 +2,14 @@
 
 This project is also deployed on [Github Pages](https://surbhigoel191.github.io/react-webpage/).
 
-1. Clone the [repository](https://github.com/surbhigoel191/react-webpage).
+1.  In the command line, navigate to the folder in which you want to have this project and clone this repository by running `git clone https://github.com/surbhigoel191/react-webpage`.
 
-2. Go to the folder where cloned repository is present and run the following commands in command line to install dependencies -
+2. Now run the following commands to install dependencies -
 ```
-npm install react-multi-carousel --save
-npm install --save blurhash react-blurhash
 npm install --save react-router-dom
 npm install react-bootstrap bootstrap
+npm install --save blurhash react-blurhash
+npm install react-multi-carousel --save
 ```
 
 3. Finally, run the command `npm run` and project will open automatically in your [web browser](http://localhost:3000/react-webpage/).
