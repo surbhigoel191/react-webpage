@@ -12,4 +12,4 @@ npm install --save blurhash react-blurhash
 npm install react-multi-carousel --save
 ```
 
-3. Finally, run the command `npm run` and project will open automatically in your [web browser](http://localhost:3000/react-webpage/).
+3. Finally, run the command `npm start` and project will open automatically in your [web browser](http://localhost:3000/react-webpage/).
